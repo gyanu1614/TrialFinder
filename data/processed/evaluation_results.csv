@@ -1,0 +1,21 @@
+query,mode,precision_at_5,precision_at_10,ndcg_at_10,latency_ms,result_count,search_mode_returned,live_api_used,live_api_count,top_result_title,top_result_score
+stage 2 breast cancer trials near los angeles,local_index,1.0,1.0,0.839,1589.54,10,local_index,False,0,Faith in Action! A Church-Based Navigation Model to Increase Breast Cancer Screening in Korean Women,0.8536
+diabetes trials using continuous glucose monitoring in california,local_index,1.0,1.0,0.942,1133.97,10,local_index,False,0,Continuous Glucose Monitoring (CGM) in Prediabetes With Community Based Recruitment,0.9226
+asthma trials for children in united states,local_index,1.0,1.0,0.989,274.03,10,local_index,False,0,Project ASTHMA - Aligning With Schools To Help Manage Asthma and Improve Outcomes,0.8688
+depression trials for adults not using medication,local_index,1.0,1.0,1.0,610.15,10,local_index,False,0,Digital Interventions for Adults with Treatment-Resistant Depression: a Pilot Study,0.8307
+alzheimer trials for older adults,local_index,1.0,1.0,0.975,362.73,10,local_index,False,0,Improv Music Therapy for Older Adults,0.7768
+lung cancer immunotherapy trials in california,local_index,1.0,1.0,0.845,1542.46,10,local_index,False,0,CONNECTing to LungCare,0.8361
+parkinson trials for adults in united states,local_index,1.0,1.0,0.877,567.89,10,local_index,False,0,Real-World Patient Experiences Using Continuous Subcutaneous Apomorphine Infusion (ONAPGOTM) in the United States:,0.9062
+migraine prevention trials,local_index,1.0,1.0,1.0,172.59,10,local_index,False,0,Closed-loop RTMS for Short-term Migraine Prevention,0.7637
+glioblastoma trials,local_index,1.0,1.0,1.0,18304.08,10,local_index,False,0,Glutamate Inhibitors in Glioblastoma,0.712
+hiv vaccine trials,local_index,1.0,1.0,1.0,317.88,10,local_index,False,0,Immunogenicity of Gardasil-9 HPV Vaccine in People Living With HIV,0.73
+stage 2 breast cancer trials near los angeles,local_plus_live_api,1.0,1.0,0.839,1580.05,10,local_plus_live_api,True,1,Faith in Action! A Church-Based Navigation Model to Increase Breast Cancer Screening in Korean Women,0.8536
+diabetes trials using continuous glucose monitoring in california,local_plus_live_api,1.0,1.0,0.929,920.89,10,local_plus_live_api,True,3,Continuous Glucose Monitoring (CGM) in Prediabetes With Community Based Recruitment,0.9226
+asthma trials for children in united states,local_plus_live_api,1.0,1.0,0.989,399.61,10,local_plus_live_api,True,1,Project ASTHMA - Aligning With Schools To Help Manage Asthma and Improve Outcomes,0.8688
+depression trials for adults not using medication,local_plus_live_api,1.0,1.0,1.0,734.48,10,local_plus_live_api,True,18,Digital Interventions for Adults with Treatment-Resistant Depression: a Pilot Study,0.8307
+alzheimer trials for older adults,local_plus_live_api,1.0,1.0,0.989,496.31,10,local_plus_live_api,True,24,Improv Music Therapy for Older Adults,0.7768
+lung cancer immunotherapy trials in california,local_plus_live_api,1.0,1.0,0.966,1676.51,10,local_plus_live_api,True,15,A Study of Alisertib in Patients With Extensive Stage Small Cell Lung Cancer,0.8936
+parkinson trials for adults in united states,local_plus_live_api,1.0,1.0,0.896,526.75,10,local_plus_live_api,True,7,Real-World Patient Experiences Using Continuous Subcutaneous Apomorphine Infusion (ONAPGOTM) in the United States:,0.9062
+migraine prevention trials,local_plus_live_api,1.0,1.0,1.0,305.15,10,local_plus_live_api,True,13,Closed-loop RTMS for Short-term Migraine Prevention,0.7637
+glioblastoma trials,local_plus_live_api,1.0,1.0,1.0,18612.75,10,local_plus_live_api,True,49,Glutamate Inhibitors in Glioblastoma,0.712
+hiv vaccine trials,local_plus_live_api,1.0,1.0,1.0,524.94,10,local_plus_live_api,True,8,Immunogenicity of Gardasil-9 HPV Vaccine in People Living With HIV,0.73

@@ -1,0 +1,20 @@
+# Python
+apps/api/.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Node / Next.js
+apps/web/node_modules/
+apps/web/.next/
+apps/web/out/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Raw data
+data/raw/data/processed/trials.json
