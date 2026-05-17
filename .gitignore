@@ -18,3 +18,4 @@ apps/web/out/
 
 # Raw data
 data/raw/data/processed/trials.json
+data/processed/trials.json
