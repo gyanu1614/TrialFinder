@@ -1,6 +1,7 @@
 import json
 import math
 import re
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -19,7 +20,8 @@ except Exception:
 
 
 ROOT_DIR = Path(__file__).resolve().parents[3]
-TRIALS_PATH = ROOT_DIR / "data" / "processed" / "trials.json"
+TRIAL_DATA_FILE = os.getenv("TRIAL_DATA_FILE", "trials.json")
+TRIALS_PATH = ROOT_DIR / "data" / "processed" / TRIAL_DATA_FILE
 
 
 KNOWN_CONDITIONS = [
