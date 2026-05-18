@@ -204,6 +204,10 @@ class TrialSearchEngine:
         if SentenceTransformer is None:
             return None
 
+        if os.getenv("DISABLE_SEMANTIC", "false").lower() == "true":
+            self.semantic_model = None
+        return None
+
         # Lightweight model commonly used for semantic similarity demos.
         self.semantic_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
         return self.semantic_model
